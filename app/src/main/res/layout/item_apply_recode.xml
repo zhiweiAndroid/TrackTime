@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rl_tracktime_image"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/tracktime_view1"
+            android:layout_width="2dp"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tracktime_image"
+            android:layout_gravity="center"
+            android:background="@color/timetrack"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tracktime_image"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/refresh_oval_red"
+            android:gravity="center" />
+
+        <View
+            android:id="@+id/tracktime_view2"
+            android:layout_width="2dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/tracktime_image"
+            android:layout_gravity="center"
+            android:background="@color/timetrack"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tracktime_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/rl_tracktime_image">
+
+
+        <TextView
+            android:id="@+id/tv_tracktime_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:includeFontPadding="false"
+            android:text="1/12"
+            android:textColor="@color/tv_three"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_tracktime_detail_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/tv_tracktime_time"
+            android:includeFontPadding="false"
+            android:text="2017-4-12 12:27:56"
+            android:textColor="@color/tv_three"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:id="@+id/tv_tracktime_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tracktime_detail_time"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/tv_tracktime_time"
+            android:includeFontPadding="false"
+            android:text="本金350 + 利息12 + 费用0"
+            android:textColor="@color/tv_nine"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

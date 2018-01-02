@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+
+    <color name="red">#FF0000</color>
+    <color name="text_red">#FC524C</color>
+    <color name="timetrack">#F9B5B3</color>
+    <color name="gray_bg">#F0F0F0</color>
+    <color name="border_edt_color">#E3E3E3</color>
+    <color name="comm_edt_color">#9E8D8D</color>
+    <color name="header_background">#FFFFFF</color>
+    <color name="default_text">#665E5E</color>
+    <color name="header_text">#665E5E</color>
+    <color name="detail_text">#B3A6A6</color>
+    <color name="protocol_bg">#10000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="tv_ccc">#CCCCCC</color>
+    <color name="tv_three">#333333</color>
+    <color name="tv_six">#666666</color>
+    <color name="tv_nine">#999999</color>
+    <color name="background">#F9F9F9</color>
+    <color name="line">#E5E5E5</color>
+    <color name="title">#FF9999</color>
+    <color name="tv_white">#FFFFFF</color>
+    <color name="translucent">#00000000</color>
+    <color name="button_dialog_sure">#4F8BE8</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="tv_blue_applu">#508CEE</color>
+    <color name="tv_E5E5E5">#E5E5E5</color>
+    <color name="tv_3F">#3F3F3F</color>
+    <color name="tv_D1">#D1D1D1</color>
+</resources>
